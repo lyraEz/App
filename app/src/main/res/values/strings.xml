@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Stretch Screen</string>
+    <string name="app_description">Simulate the stretched screen effect used by CS:GO professionals</string>
+    
+    <!-- Main Activity -->
+    <string name="stretch_screen_effect">Stretch Screen Effect</string>
+    <string name="enable_stretch_effect">Enable Stretch Effect</string>
+    <string name="status_enabled">Status: Enabled</string>
+    <string name="status_disabled">Status: Disabled</string>
+    <string name="adjust_settings">Adjust Settings</string>
+    <string name="info_title">How It Works</string>
+    <string name="info_description">This app simulates the stretched screen effect used by many professional CS:GO players. The effect makes character models appear wider, making them easier to see and hit. Adjust the width and height ratios in settings to customize the stretch effect.</string>
+    <string name="root_required_notice">Note: For best performance, root access is recommended. Without root, some features may be limited.</string>
+    <string name="permission_required_title">Permission Required</string>
+    <string name="permission_required_description">This app needs the \"Draw over other apps\" permission to apply the stretch effect system-wide.</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="permission_granted">Permission granted!</string>
+    <string name="permission_denied">Permission denied. App functionality will be limited.</string>
+    
+    <!-- Settings Activity -->
+    <string name="settings_title">Settings</string>
+    <string name="ratio_settings">Ratio Settings</string>
+    <string name="width_ratio">Width Ratio</string>
+    <string name="width_ratio_format">%d%% (higher values = wider view)</string>
+    <string name="height_ratio">Height Ratio</string>
+    <string name="height_ratio_format">%d%% (higher values = taller view)</string>
+    <string name="save_preset">Save Current Settings as Preset</string>
+    <string name="presets">Preset Configurations</string>
+    <string name="delete_preset">Delete Preset</string>
+    
+    <!-- Service -->
+    <string name="service_notification_title">Stretch Screen Active</string>
+    <string name="service_notification_text">Tap to open settings</string>
+</resources>
